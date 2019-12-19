@@ -14,11 +14,11 @@
 		B8050E5E23A93BB200F35502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8050E5C23A93BB200F35502 /* LaunchScreen.storyboard */; };
 		B8050E6923A93BB300F35502 /* Penn_Interactive_Coding_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E6823A93BB300F35502 /* Penn_Interactive_Coding_SampleTests.swift */; };
 		B8050E7423A93BB300F35502 /* Penn_Interactive_Coding_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E7323A93BB300F35502 /* Penn_Interactive_Coding_SampleUITests.swift */; };
-		B8050E8223A93C3600F35502 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E8123A93C3600F35502 /* JSON.swift */; };
 		B8050E8423A93C7600F35502 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E8323A93C7600F35502 /* User.swift */; };
 		B8050E8623A93D7000F35502 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E8523A93D7000F35502 /* UserTableViewCell.swift */; };
 		B8050E8C23A9682400F35502 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B8050E8B23A9682400F35502 /* README.rtf */; };
-		B8050E8E23A96A3D00F35502 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8050E8D23A96A3D00F35502 /* SceneDelegate.swift */; };
+		B811FA7E23ABD8350042B5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B811FA7D23ABD8340042B5F6 /* SceneDelegate.swift */; };
+		B811FA8223ABD89C0042B5F6 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B811FA8123ABD89C0042B5F6 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		B8050E6F23A93BB300F35502 /* Penn Interactive Coding SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Interactive Coding SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8050E7323A93BB300F35502 /* Penn_Interactive_Coding_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Interactive_Coding_SampleUITests.swift; sourceTree = "<group>"; };
 		B8050E7523A93BB300F35502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8050E8123A93C3600F35502 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../../ComcastCodingTest/ComcastCodingTest/JSON.swift; sourceTree = "<group>"; };
 		B8050E8323A93C7600F35502 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B8050E8523A93D7000F35502 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		B8050E8B23A9682400F35502 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
-		B8050E8D23A96A3D00F35502 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../Desktop/SceneDelegate.swift; sourceTree = "<group>"; };
+		B811FA7D23ABD8340042B5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B811FA8123ABD89C0042B5F6 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 		B8050E5023A93BB000F35502 /* Penn Interactive Coding Sample */ = {
 			isa = PBXGroup;
 			children = (
-				B8050E8123A93C3600F35502 /* JSON.swift */,
-				B8050E8D23A96A3D00F35502 /* SceneDelegate.swift */,
+				B811FA7D23ABD8340042B5F6 /* SceneDelegate.swift */,
 				B8050E5123A93BB000F35502 /* AppDelegate.swift */,
 				B8050E5523A93BB000F35502 /* ViewController.swift */,
+				B811FA8123ABD89C0042B5F6 /* JSON.swift */,
 				B8050E8B23A9682400F35502 /* README.rtf */,
 				B8050E5723A93BB000F35502 /* Main.storyboard */,
 				B8050E5A23A93BB200F35502 /* Assets.xcassets */,
@@ -272,12 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B811FA7E23ABD8350042B5F6 /* SceneDelegate.swift in Sources */,
+				B8050E8623A93D7000F35502 /* UserTableViewCell.swift in Sources */,
 				B8050E8423A93C7600F35502 /* User.swift in Sources */,
 				B8050E5623A93BB000F35502 /* ViewController.swift in Sources */,
 				B8050E5223A93BB000F35502 /* AppDelegate.swift in Sources */,
-				B8050E8623A93D7000F35502 /* UserTableViewCell.swift in Sources */,
-				B8050E8223A93C3600F35502 /* JSON.swift in Sources */,
-				B8050E8E23A96A3D00F35502 /* SceneDelegate.swift in Sources */,
+				B811FA8223ABD89C0042B5F6 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
